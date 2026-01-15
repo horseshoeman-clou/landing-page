@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     margin:0;
 }
@@ -67,7 +73,6 @@ header {
      height: 400px;
      width: 100%;
      gap:50px;
-     margin-bottom: 80px;
      margin-top: 0;
 
 }
@@ -118,3 +123,118 @@ header {
 
 }
 
+.info{
+    padding: 0;
+    height: 500px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.info2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:10px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.subtext2{
+    width:160px;
+    color:#1F2937;
+}
+
+.boxbox{
+    border: solid rgb(22, 144, 192); 
+    height: 160px;
+    width: 160px;
+    margin:20px;
+    border-radius: 15px;
+    
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    height: 400px;
+    width: 100%;
+
+}
+
+.quotebody{
+    color:#1F2937;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    font-size: 36px;
+   font-style: italic;
+}
+
+.user{
+    font-size: 20px;
+    align-self: flex-end;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+.cta{
+    height: 300px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox{
+    background: #3882F6;
+    height: 150px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.signupcta{
+        height: 40px;
+    width: 135px;
+    border-radius: 15px;
+    background: #3882F6;
+    color:white;
+    font-size: large;
+    border:0;
+    border: solid white;
+
+}
+
+.CTA{
+    color: white;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    color: #E5E7EB;
+}
